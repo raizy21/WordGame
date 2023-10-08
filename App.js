@@ -9,7 +9,7 @@ const App = () => {
       <View style={styles.optionsContainer}>
         <View style={styles.optionContainer}>
           <Image
-            source={require("./assets/image/book.jpg")}
+            source={require("./assets/book.jpg")}
             resizeMode="contain"
             style={styles.optionImage}
           />
