@@ -1,5 +1,6 @@
 import React from "react";
-import { Text, View, StyleSheet, Image } from "react-native";
+import { Text, View } from "react-native";
+import ImageOption from "./assets/src/components/ImageOption";
 import styles from "./App.styles";
 
 const App = () => {
@@ -7,14 +8,10 @@ const App = () => {
     <View style={styles.root}>
       <Text style={styles.title}>Which of these is the "book"?</Text>
       <View style={styles.optionsContainer}>
-        <View style={styles.optionContainer}>
-          <Image
-            source={require("./assets/book.jpg")}
-            resizeMode="contain"
-            style={styles.optionImage}
-          />
-          <Text style={styles.optionText}>Book</Text>
-        </View>
+        <ImageOption />
+        <ImageOption />
+        <ImageOption />
+        <ImageOption />
       </View>
     </View>
   );
