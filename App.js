@@ -1,13 +1,13 @@
 import React from "react";
 import { Text, View } from "react-native";
-import ImageOption from "./assets/src/components/ImageOption";
+import ImageOption from "./src/components/ImageOption";
 import styles from "./App.styles";
 import question from "./assets/data/QuestionWithOptions";
 
 const App = () => {
   return (
     <View style={styles.root}>
-      <Text style={styles.title}>question.question</Text>
+      <Text style={styles.title}>{question.question}</Text>
       <View style={styles.optionsContainer}>
         {question.options.map((option) => (
           <ImageOption
