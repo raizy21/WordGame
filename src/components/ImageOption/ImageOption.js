@@ -23,13 +23,13 @@ ImageOption.propType = {
   image: PropTypes.string.isRequired,
   text: PropTypes.string,
   isSelected: PropTypes.bool,
-  onPress: PropTypes.func
+  onPress: PropTypes.func,
 };
 
 ImageOption.defaultProps = {
   text: "Default",
   isSelected: false,
-  onPress : () => {}
+  onPress: () => {},
 };
 
 export default ImageOption;

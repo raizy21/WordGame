@@ -3,23 +3,23 @@ export default {
   options: [
     {
       id: "option1",
-      image: "/assets/book.jpg",
+      image: "/assets/image/book.jpg",
       text: "book",
       correct: true,
     },
     {
       id: "option2",
-      image: "/assets/cup.jpg",
+      image: "/assets/image/cup.jpg",
       text: "cup",
     },
     {
       id: "option3",
-      image: "/assets/notebook.png",
+      image: "/assets/image/notebook.png",
       text: "notebook",
     },
     {
       id: "option4",
-      image: "/assets/pen.jpg",
+      image: "/assets/image/pen.jpg",
       text: "pen",
     },
   ],
